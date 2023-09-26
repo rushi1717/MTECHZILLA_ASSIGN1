@@ -1,0 +1,24 @@
+.countdown-timer{
+    display: flex;
+    justify-content: center;
+}
+.countdown-timer div>h1{
+    text-align: center;
+}
+.timer{
+    font-size: 2.1rem;
+    text-align: center;
+}
+.timer-controls>button{
+    background-color: yellow;
+    cursor: pointer;
+    color: black;
+    border: none;
+    outline: none;
+    margin:0px 1rem;
+    padding: 10px 30px;
+}
+.active{
+    background-color: black !important;
+    color: white !important;
+}
