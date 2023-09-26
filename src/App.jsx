@@ -2,7 +2,7 @@ import { auth, provider } from "./FirebaseConfig";
 import { useState } from "react";
 import { signInWithPopup } from "firebase/auth";
 import Timer from "./Timer";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   const [user, setuser] = useState(null);
